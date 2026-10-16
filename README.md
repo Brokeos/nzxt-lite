@@ -168,11 +168,14 @@ cargo build --release
 - Interface : [egui](https://github.com/emilk/egui) et
   [egui_software_backend](https://github.com/DGriffin91/egui_software_backend).
 
-## Avertissement
+## Mentions légales
 
-Projet personnel non officiel, sans lien avec NZXT, Inc. « NZXT », « Kraken » et
-« CAM » sont des marques de NZXT, Inc. ; l'icône de l'application provient de NZXT CAM.
-Logiciel fourni tel quel, sans garantie : tu pilotes ton refroidissement à tes risques.
+Projet indépendant, non affilié à NZXT, Inc.. Les marques et l'icône de l'application restent
+la propriété de leurs titulaires ; le protocole a été documenté à des fins d'interopérabilité.
+**Ayants droit : pour toute demande de retrait (icône, marque, documentation), ouvrez une
+issue et l'élément sera retiré rapidement.** Détails dans [LEGAL.md](LEGAL.md).
+
+Logiciel fourni tel quel, sans garantie.
 
 ## Licence
 
