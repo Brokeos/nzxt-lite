@@ -170,7 +170,7 @@ cargo build --release
 
 ## Mentions légales
 
-Projet indépendant, non affilié à NZXT, Inc.. Les marques et l'icône de l'application restent
+Projet indépendant, non affilié à NZXT, Inc. Les marques et l'icône de l'application restent
 la propriété de leurs titulaires ; le protocole a été documenté à des fins d'interopérabilité.
 **Ayants droit : pour toute demande de retrait (icône, marque, documentation), ouvrez une
 issue et l'élément sera retiré rapidement.** Détails dans [LEGAL.md](LEGAL.md).
