@@ -1,0 +1,32 @@
+[package]
+name = "nzxt-lite"
+version = "0.1.0"
+edition = "2024"
+description = "Remplaçant léger de NZXT CAM pour Kraken Z en Rust"
+license = "MIT"
+repository = "https://github.com/Brokeos/nzxt-lite"
+readme = "README.md"
+publish = false
+
+[dependencies]
+ab_glyph = "0.2"
+egui = { version = "0.34", default-features = false, features = ["default_fonts"] }
+egui_software_backend = "0.0.3"
+epaint_default_fonts = "0.34"
+hidapi = { version = "2.6.7", default-features = false, features = ["windows-native"] }
+image = { version = "0.25.10", default-features = false, features = ["png", "jpeg", "gif", "bmp", "webp"] }
+rusb = { version = "0.9.4", features = ["vendored"] }
+serde = { version = "1.0.229", features = ["derive"] }
+tiny-skia = { version = "0.11", default-features = false, features = ["std", "simd"] }
+toml = "1.1.8"
+windows-sys = { version = "0.61.2", features = ["Win32_System_Console", "Win32_System_Registry", "Win32_System_Diagnostics_ToolHelp", "Win32_Foundation", "Win32_Security", "Win32_Storage_FileSystem", "Win32_System_IO", "Win32_System_LibraryLoader", "Win32_System_Memory", "Win32_System_Threading", "Win32_UI_HiDpi", "Win32_UI_Shell", "Win32_UI_WindowsAndMessaging"] }
+
+[build-dependencies]
+embed-resource = "3.0.12"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
